@@ -15,6 +15,23 @@
 		CC7364412B4203BD00CA1B09 /* MeetMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364402B4203BD00CA1B09 /* MeetMeTests.swift */; };
 		CC73644B2B4203BD00CA1B09 /* MeetMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73644A2B4203BD00CA1B09 /* MeetMeUITests.swift */; };
 		CC73644D2B4203BD00CA1B09 /* MeetMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73644C2B4203BD00CA1B09 /* MeetMeUITestsLaunchTests.swift */; };
+		CC7364602B42040F00CA1B09 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC73645F2B42040F00CA1B09 /* WidgetKit.framework */; };
+		CC7364622B42040F00CA1B09 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7364612B42040F00CA1B09 /* SwiftUI.framework */; };
+		CC7364652B42040F00CA1B09 /* MeetMeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364642B42040F00CA1B09 /* MeetMeWidgetBundle.swift */; };
+		CC7364672B42040F00CA1B09 /* MeetMeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364662B42040F00CA1B09 /* MeetMeWidgetLiveActivity.swift */; };
+		CC7364692B42040F00CA1B09 /* MeetMeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364682B42040F00CA1B09 /* MeetMeWidget.swift */; };
+		CC73646B2B42040F00CA1B09 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73646A2B42040F00CA1B09 /* AppIntent.swift */; };
+		CC73646D2B42041000CA1B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC73646C2B42041000CA1B09 /* Assets.xcassets */; };
+		CC7364712B42041000CA1B09 /* MeetMeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC73645D2B42040F00CA1B09 /* MeetMeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC73647F2B42047900CA1B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73647E2B42047900CA1B09 /* ContentView.swift */; };
+		CC7364812B42047A00CA1B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7364802B42047A00CA1B09 /* Assets.xcassets */; };
+		CC7364842B42047A00CA1B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7364832B42047A00CA1B09 /* Preview Assets.xcassets */; };
+		CC73648E2B42047A00CA1B09 /* WatchMeetMe_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73648D2B42047A00CA1B09 /* WatchMeetMe_Watch_AppTests.swift */; };
+		CC7364982B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364972B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift */; };
+		CC73649A2B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */; };
+		CC73649D2B42047A00CA1B09 /* WatchMeetMe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC73647A2B42047900CA1B09 /* WatchMeetMe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC7364A82B42054300CA1B09 /* MeetMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642B2B4203BD00CA1B09 /* MeetMeApp.swift */; };
+		CC7364A92B42055B00CA1B09 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642F2B4203BD00CA1B09 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +49,60 @@
 			remoteGlobalIDString = CC7364272B4203BD00CA1B09;
 			remoteInfo = MeetMe;
 		};
+		CC73646F2B42041000CA1B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7364202B4203BD00CA1B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC73645C2B42040F00CA1B09;
+			remoteInfo = MeetMeWidgetExtension;
+		};
+		CC73648A2B42047A00CA1B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7364202B4203BD00CA1B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7364792B42047900CA1B09;
+			remoteInfo = "WatchMeetMe Watch App";
+		};
+		CC7364942B42047A00CA1B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7364202B4203BD00CA1B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7364792B42047900CA1B09;
+			remoteInfo = "WatchMeetMe Watch App";
+		};
+		CC73649B2B42047A00CA1B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7364202B4203BD00CA1B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7364792B42047900CA1B09;
+			remoteInfo = "WatchMeetMe Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC7364752B42041000CA1B09 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC7364712B42041000CA1B09 /* MeetMeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364A12B42047A00CA1B09 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC73649D2B42047A00CA1B09 /* WatchMeetMe Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CC7364282B4203BD00CA1B09 /* MeetMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +118,26 @@
 		CC7364462B4203BD00CA1B09 /* MeetMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC73644A2B4203BD00CA1B09 /* MeetMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeUITests.swift; sourceTree = "<group>"; };
 		CC73644C2B4203BD00CA1B09 /* MeetMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC73645D2B42040F00CA1B09 /* MeetMeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MeetMeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC73645F2B42040F00CA1B09 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CC7364612B42040F00CA1B09 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CC7364642B42040F00CA1B09 /* MeetMeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeWidgetBundle.swift; sourceTree = "<group>"; };
+		CC7364662B42040F00CA1B09 /* MeetMeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		CC7364682B42040F00CA1B09 /* MeetMeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeWidget.swift; sourceTree = "<group>"; };
+		CC73646A2B42040F00CA1B09 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		CC73646C2B42041000CA1B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC73646E2B42041000CA1B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC73647A2B42047900CA1B09 /* WatchMeetMe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchMeetMe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC73647E2B42047900CA1B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC7364802B42047A00CA1B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7364832B42047A00CA1B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC7364892B42047A00CA1B09 /* WatchMeetMe Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchMeetMe Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC73648D2B42047A00CA1B09 /* WatchMeetMe_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMeetMe_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CC7364932B42047A00CA1B09 /* WatchMeetMe Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchMeetMe Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7364972B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMeetMe_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMeetMe_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC7364AA2B42064300CA1B09 /* MeetMeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetMeWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CC7364AB2B42068700CA1B09 /* WatchMeetMe Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchMeetMe Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,15 +162,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC73645A2B42040F00CA1B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7364622B42040F00CA1B09 /* SwiftUI.framework in Frameworks */,
+				CC7364602B42040F00CA1B09 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364772B42047900CA1B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364862B42047A00CA1B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364902B42047A00CA1B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CC73641F2B4203BD00CA1B09 = {
 			isa = PBXGroup;
 			children = (
+				CC7364AA2B42064300CA1B09 /* MeetMeWidgetExtension.entitlements */,
 				CC73642A2B4203BD00CA1B09 /* MeetMe */,
 				CC73643F2B4203BD00CA1B09 /* MeetMeTests */,
 				CC7364492B4203BD00CA1B09 /* MeetMeUITests */,
+				CC7364632B42040F00CA1B09 /* MeetMeWidget */,
+				CC73647B2B42047900CA1B09 /* WatchMeetMe Watch App */,
+				CC73648C2B42047A00CA1B09 /* WatchMeetMe Watch AppTests */,
+				CC7364962B42047A00CA1B09 /* WatchMeetMe Watch AppUITests */,
+				CC73645E2B42040F00CA1B09 /* Frameworks */,
 				CC7364292B4203BD00CA1B09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +217,10 @@
 				CC7364282B4203BD00CA1B09 /* MeetMe.app */,
 				CC73643C2B4203BD00CA1B09 /* MeetMeTests.xctest */,
 				CC7364462B4203BD00CA1B09 /* MeetMeUITests.xctest */,
+				CC73645D2B42040F00CA1B09 /* MeetMeWidgetExtension.appex */,
+				CC73647A2B42047900CA1B09 /* WatchMeetMe Watch App.app */,
+				CC7364892B42047A00CA1B09 /* WatchMeetMe Watch AppTests.xctest */,
+				CC7364932B42047A00CA1B09 /* WatchMeetMe Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +264,64 @@
 			path = MeetMeUITests;
 			sourceTree = "<group>";
 		};
+		CC73645E2B42040F00CA1B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC73645F2B42040F00CA1B09 /* WidgetKit.framework */,
+				CC7364612B42040F00CA1B09 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7364632B42040F00CA1B09 /* MeetMeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364642B42040F00CA1B09 /* MeetMeWidgetBundle.swift */,
+				CC7364662B42040F00CA1B09 /* MeetMeWidgetLiveActivity.swift */,
+				CC7364682B42040F00CA1B09 /* MeetMeWidget.swift */,
+				CC73646A2B42040F00CA1B09 /* AppIntent.swift */,
+				CC73646C2B42041000CA1B09 /* Assets.xcassets */,
+				CC73646E2B42041000CA1B09 /* Info.plist */,
+			);
+			path = MeetMeWidget;
+			sourceTree = "<group>";
+		};
+		CC73647B2B42047900CA1B09 /* WatchMeetMe Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364AB2B42068700CA1B09 /* WatchMeetMe Watch App.entitlements */,
+				CC73647E2B42047900CA1B09 /* ContentView.swift */,
+				CC7364802B42047A00CA1B09 /* Assets.xcassets */,
+				CC7364822B42047A00CA1B09 /* Preview Content */,
+			);
+			path = "WatchMeetMe Watch App";
+			sourceTree = "<group>";
+		};
+		CC7364822B42047A00CA1B09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364832B42047A00CA1B09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC73648C2B42047A00CA1B09 /* WatchMeetMe Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC73648D2B42047A00CA1B09 /* WatchMeetMe_Watch_AppTests.swift */,
+			);
+			path = "WatchMeetMe Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CC7364962B42047A00CA1B09 /* WatchMeetMe Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364972B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift */,
+				CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchMeetMe Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,10 +332,14 @@
 				CC7364242B4203BD00CA1B09 /* Sources */,
 				CC7364252B4203BD00CA1B09 /* Frameworks */,
 				CC7364262B4203BD00CA1B09 /* Resources */,
+				CC7364752B42041000CA1B09 /* Embed Foundation Extensions */,
+				CC7364A12B42047A00CA1B09 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC7364702B42041000CA1B09 /* PBXTargetDependency */,
+				CC73649C2B42047A00CA1B09 /* PBXTargetDependency */,
 			);
 			name = MeetMe;
 			productName = MeetMe;
@@ -190,6 +382,76 @@
 			productReference = CC7364462B4203BD00CA1B09 /* MeetMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CC73645C2B42040F00CA1B09 /* MeetMeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7364722B42041000CA1B09 /* Build configuration list for PBXNativeTarget "MeetMeWidgetExtension" */;
+			buildPhases = (
+				CC7364592B42040F00CA1B09 /* Sources */,
+				CC73645A2B42040F00CA1B09 /* Frameworks */,
+				CC73645B2B42040F00CA1B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMeWidgetExtension;
+			productName = MeetMeWidgetExtension;
+			productReference = CC73645D2B42040F00CA1B09 /* MeetMeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CC7364792B42047900CA1B09 /* WatchMeetMe Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC73649E2B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch App" */;
+			buildPhases = (
+				CC7364762B42047900CA1B09 /* Sources */,
+				CC7364772B42047900CA1B09 /* Frameworks */,
+				CC7364782B42047900CA1B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchMeetMe Watch App";
+			productName = "WatchMeetMe Watch App";
+			productReference = CC73647A2B42047900CA1B09 /* WatchMeetMe Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7364882B42047A00CA1B09 /* WatchMeetMe Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7364A22B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch AppTests" */;
+			buildPhases = (
+				CC7364852B42047A00CA1B09 /* Sources */,
+				CC7364862B42047A00CA1B09 /* Frameworks */,
+				CC7364872B42047A00CA1B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC73648B2B42047A00CA1B09 /* PBXTargetDependency */,
+			);
+			name = "WatchMeetMe Watch AppTests";
+			productName = "WatchMeetMe Watch AppTests";
+			productReference = CC7364892B42047A00CA1B09 /* WatchMeetMe Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7364922B42047A00CA1B09 /* WatchMeetMe Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7364A52B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch AppUITests" */;
+			buildPhases = (
+				CC73648F2B42047A00CA1B09 /* Sources */,
+				CC7364902B42047A00CA1B09 /* Frameworks */,
+				CC7364912B42047A00CA1B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7364952B42047A00CA1B09 /* PBXTargetDependency */,
+			);
+			name = "WatchMeetMe Watch AppUITests";
+			productName = "WatchMeetMe Watch AppUITests";
+			productReference = CC7364932B42047A00CA1B09 /* WatchMeetMe Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +473,20 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = CC7364272B4203BD00CA1B09;
 					};
+					CC73645C2B42040F00CA1B09 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CC7364792B42047900CA1B09 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CC7364882B42047A00CA1B09 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CC7364792B42047900CA1B09;
+					};
+					CC7364922B42047A00CA1B09 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CC7364792B42047900CA1B09;
+					};
 				};
 			};
 			buildConfigurationList = CC7364232B4203BD00CA1B09 /* Build configuration list for PBXProject "MeetMe" */;
@@ -229,6 +505,10 @@
 				CC7364272B4203BD00CA1B09 /* MeetMe */,
 				CC73643B2B4203BD00CA1B09 /* MeetMeTests */,
 				CC7364452B4203BD00CA1B09 /* MeetMeUITests */,
+				CC73645C2B42040F00CA1B09 /* MeetMeWidgetExtension */,
+				CC7364792B42047900CA1B09 /* WatchMeetMe Watch App */,
+				CC7364882B42047A00CA1B09 /* WatchMeetMe Watch AppTests */,
+				CC7364922B42047A00CA1B09 /* WatchMeetMe Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +531,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CC7364442B4203BD00CA1B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC73645B2B42040F00CA1B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC73646D2B42041000CA1B09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364782B42047900CA1B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7364842B42047A00CA1B09 /* Preview Assets.xcassets in Resources */,
+				CC7364812B42047A00CA1B09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364872B42047A00CA1B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364912B42047A00CA1B09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,6 +598,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC7364592B42040F00CA1B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7364692B42040F00CA1B09 /* MeetMeWidget.swift in Sources */,
+				CC73646B2B42040F00CA1B09 /* AppIntent.swift in Sources */,
+				CC7364652B42040F00CA1B09 /* MeetMeWidgetBundle.swift in Sources */,
+				CC7364672B42040F00CA1B09 /* MeetMeWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364762B42047900CA1B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7364A82B42054300CA1B09 /* MeetMeApp.swift in Sources */,
+				CC7364A92B42055B00CA1B09 /* Item.swift in Sources */,
+				CC73647F2B42047900CA1B09 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7364852B42047A00CA1B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC73648E2B42047A00CA1B09 /* WatchMeetMe_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC73648F2B42047A00CA1B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7364982B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift in Sources */,
+				CC73649A2B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +648,26 @@
 			isa = PBXTargetDependency;
 			target = CC7364272B4203BD00CA1B09 /* MeetMe */;
 			targetProxy = CC7364472B4203BD00CA1B09 /* PBXContainerItemProxy */;
+		};
+		CC7364702B42041000CA1B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC73645C2B42040F00CA1B09 /* MeetMeWidgetExtension */;
+			targetProxy = CC73646F2B42041000CA1B09 /* PBXContainerItemProxy */;
+		};
+		CC73648B2B42047A00CA1B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7364792B42047900CA1B09 /* WatchMeetMe Watch App */;
+			targetProxy = CC73648A2B42047A00CA1B09 /* PBXContainerItemProxy */;
+		};
+		CC7364952B42047A00CA1B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7364792B42047900CA1B09 /* WatchMeetMe Watch App */;
+			targetProxy = CC7364942B42047A00CA1B09 /* PBXContainerItemProxy */;
+		};
+		CC73649C2B42047A00CA1B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7364792B42047900CA1B09 /* WatchMeetMe Watch App */;
+			targetProxy = CC73649B2B42047A00CA1B09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,6 +789,7 @@
 		CC7364512B4203BD00CA1B09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MeetMe/MeetMe.entitlements;
@@ -449,16 +819,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
 		CC7364522B4203BD00CA1B09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MeetMe/MeetMe.entitlements;
@@ -488,10 +860,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -585,6 +958,216 @@
 			};
 			name = Release;
 		};
+		CC7364732B42041000CA1B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MeetMeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetMeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetMeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe.MeetMeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7364742B42041000CA1B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MeetMeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetMeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetMeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe.MeetMeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC73649F2B42047A00CA1B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchMeetMe Watch App/WatchMeetMe Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchMeetMe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchMeetMe;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.transfinite.MeetMe;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		CC7364A02B42047A00CA1B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchMeetMe Watch App/WatchMeetMe Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchMeetMe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchMeetMe;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.transfinite.MeetMe;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		CC7364A32B42047A00CA1B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.transfinite.WatchMeetMe-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchMeetMe Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchMeetMe Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		CC7364A42B42047A00CA1B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.transfinite.WatchMeetMe-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchMeetMe Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchMeetMe Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		CC7364A62B42047A00CA1B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.transfinite.WatchMeetMe-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchMeetMe Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		CC7364A72B42047A00CA1B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88QL9VPLMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.transfinite.WatchMeetMe-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchMeetMe Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -620,6 +1203,42 @@
 			buildConfigurations = (
 				CC7364572B4203BD00CA1B09 /* Debug */,
 				CC7364582B4203BD00CA1B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7364722B42041000CA1B09 /* Build configuration list for PBXNativeTarget "MeetMeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7364732B42041000CA1B09 /* Debug */,
+				CC7364742B42041000CA1B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC73649E2B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC73649F2B42047A00CA1B09 /* Debug */,
+				CC7364A02B42047A00CA1B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7364A22B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7364A32B42047A00CA1B09 /* Debug */,
+				CC7364A42B42047A00CA1B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7364A52B42047A00CA1B09 /* Build configuration list for PBXNativeTarget "WatchMeetMe Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7364A62B42047A00CA1B09 /* Debug */,
+				CC7364A72B42047A00CA1B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
