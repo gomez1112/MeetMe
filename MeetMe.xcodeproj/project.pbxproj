@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3ADEC82B4306E900284819 /* PrefersTabNavigationEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3ADEC72B4306E900284819 /* PrefersTabNavigationEnvironmentKey.swift */; };
+		CC3ADECA2B4307F300284819 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3ADEC92B4307F300284819 /* AppTabView.swift */; };
+		CC3ADECD2B430C0300284819 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3ADECC2B430C0300284819 /* DataModel.swift */; };
 		CC73642C2B4203BD00CA1B09 /* MeetMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642B2B4203BD00CA1B09 /* MeetMeApp.swift */; };
 		CC73642E2B4203BD00CA1B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642D2B4203BD00CA1B09 /* ContentView.swift */; };
-		CC7364302B4203BD00CA1B09 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642F2B4203BD00CA1B09 /* Item.swift */; };
 		CC7364322B4203BD00CA1B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7364312B4203BD00CA1B09 /* Assets.xcassets */; };
 		CC7364362B4203BD00CA1B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7364352B4203BD00CA1B09 /* Preview Assets.xcassets */; };
 		CC7364412B4203BD00CA1B09 /* MeetMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364402B4203BD00CA1B09 /* MeetMeTests.swift */; };
@@ -30,8 +32,21 @@
 		CC7364982B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364972B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITests.swift */; };
 		CC73649A2B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */; };
 		CC73649D2B42047A00CA1B09 /* WatchMeetMe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC73647A2B42047900CA1B09 /* WatchMeetMe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CC7364A82B42054300CA1B09 /* MeetMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642B2B4203BD00CA1B09 /* MeetMeApp.swift */; };
-		CC7364A92B42055B00CA1B09 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73642F2B4203BD00CA1B09 /* Item.swift */; };
+		CC7364B02B4207F600CA1B09 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364AF2B4207F600CA1B09 /* Person.swift */; };
+		CC7364B42B42087900CA1B09 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364B32B42087900CA1B09 /* PeopleView.swift */; };
+		CC7364B72B4208A000CA1B09 /* Person+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364B62B4208A000CA1B09 /* Person+Extension.swift */; };
+		CC7364BA2B4208FB00CA1B09 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364B92B4208FB00CA1B09 /* Event.swift */; };
+		CC7364BE2B420A0A00CA1B09 /* Event+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364BD2B420A0A00CA1B09 /* Event+Extension.swift */; };
+		CC7364C32B420BF400CA1B09 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364C22B420BF400CA1B09 /* PreviewData.swift */; };
+		CC7364C92B420F7900CA1B09 /* PersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364C82B420F7900CA1B09 /* PersonEditor.swift */; };
+		CC7364D42B4227CB00CA1B09 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364D32B4227CB00CA1B09 /* EventEditor.swift */; };
+		CC7364D82B4230D800CA1B09 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364D72B4230D800CA1B09 /* PersonDetailView.swift */; };
+		CC7364DA2B429D1600CA1B09 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364D92B429D1600CA1B09 /* AppScreen.swift */; };
+		CC7364DC2B429E2B00CA1B09 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364DB2B429E2B00CA1B09 /* EventDetailView.swift */; };
+		CC7364DE2B429F0F00CA1B09 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364DD2B429F0F00CA1B09 /* EventsView.swift */; };
+		CC7364E22B42A04800CA1B09 /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364E12B42A04800CA1B09 /* AppSidebarList.swift */; };
+		CC7364E52B42AAE500CA1B09 /* AppContentColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364E42B42AAE500CA1B09 /* AppContentColumn.swift */; };
+		CC7364E72B42AB6100CA1B09 /* AppDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7364E62B42AB6100CA1B09 /* AppDetailColumn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,10 +120,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC3ADEC72B4306E900284819 /* PrefersTabNavigationEnvironmentKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefersTabNavigationEnvironmentKey.swift; sourceTree = "<group>"; };
+		CC3ADEC92B4307F300284819 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		CC3ADECC2B430C0300284819 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		CC7364282B4203BD00CA1B09 /* MeetMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC73642B2B4203BD00CA1B09 /* MeetMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeApp.swift; sourceTree = "<group>"; };
 		CC73642D2B4203BD00CA1B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CC73642F2B4203BD00CA1B09 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CC7364312B4203BD00CA1B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7364332B4203BD00CA1B09 /* MeetMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetMe.entitlements; sourceTree = "<group>"; };
 		CC7364352B4203BD00CA1B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -138,6 +155,21 @@
 		CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMeetMe_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC7364AA2B42064300CA1B09 /* MeetMeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetMeWidgetExtension.entitlements; sourceTree = "<group>"; };
 		CC7364AB2B42068700CA1B09 /* WatchMeetMe Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchMeetMe Watch App.entitlements"; sourceTree = "<group>"; };
+		CC7364AF2B4207F600CA1B09 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CC7364B32B42087900CA1B09 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		CC7364B62B4208A000CA1B09 /* Person+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+Extension.swift"; sourceTree = "<group>"; };
+		CC7364B92B4208FB00CA1B09 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CC7364BD2B420A0A00CA1B09 /* Event+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+Extension.swift"; sourceTree = "<group>"; };
+		CC7364C22B420BF400CA1B09 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		CC7364C82B420F7900CA1B09 /* PersonEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEditor.swift; sourceTree = "<group>"; };
+		CC7364D32B4227CB00CA1B09 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		CC7364D72B4230D800CA1B09 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		CC7364D92B429D1600CA1B09 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		CC7364DB2B429E2B00CA1B09 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		CC7364DD2B429F0F00CA1B09 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		CC7364E12B42A04800CA1B09 /* AppSidebarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarList.swift; sourceTree = "<group>"; };
+		CC7364E42B42AAE500CA1B09 /* AppContentColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentColumn.swift; sourceTree = "<group>"; };
+		CC7364E62B42AB6100CA1B09 /* AppDetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailColumn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +227,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC3ADECB2B430BF500284819 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC3ADECC2B430C0300284819 /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		CC73641F2B4203BD00CA1B09 = {
 			isa = PBXGroup;
 			children = (
@@ -228,9 +268,11 @@
 		CC73642A2B4203BD00CA1B09 /* MeetMe */ = {
 			isa = PBXGroup;
 			children = (
+				CC3ADECB2B430BF500284819 /* DataModel */,
+				CC7364AE2B4207DB00CA1B09 /* Extension */,
+				CC7364AD2B4207D400CA1B09 /* View */,
+				CC7364AC2B4207CE00CA1B09 /* Model */,
 				CC73642B2B4203BD00CA1B09 /* MeetMeApp.swift */,
-				CC73642D2B4203BD00CA1B09 /* ContentView.swift */,
-				CC73642F2B4203BD00CA1B09 /* Item.swift */,
 				CC7364312B4203BD00CA1B09 /* Assets.xcassets */,
 				CC7364332B4203BD00CA1B09 /* MeetMe.entitlements */,
 				CC7364372B4203BD00CA1B09 /* Info.plist */,
@@ -320,6 +362,69 @@
 				CC7364992B42047A00CA1B09 /* WatchMeetMe_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "WatchMeetMe Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		CC7364AC2B4207CE00CA1B09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364AF2B4207F600CA1B09 /* Person.swift */,
+				CC3ADEC72B4306E900284819 /* PrefersTabNavigationEnvironmentKey.swift */,
+				CC7364C22B420BF400CA1B09 /* PreviewData.swift */,
+				CC7364B92B4208FB00CA1B09 /* Event.swift */,
+				CC7364D92B429D1600CA1B09 /* AppScreen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC7364AD2B4207D400CA1B09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC73642D2B4203BD00CA1B09 /* ContentView.swift */,
+				CC7364E32B42AAD700CA1B09 /* Navigation */,
+				CC7364E02B42A02C00CA1B09 /* Event */,
+				CC7364DF2B42A02000CA1B09 /* People */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC7364AE2B4207DB00CA1B09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364B62B4208A000CA1B09 /* Person+Extension.swift */,
+				CC7364BD2B420A0A00CA1B09 /* Event+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC7364DF2B42A02000CA1B09 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364B32B42087900CA1B09 /* PeopleView.swift */,
+				CC7364D72B4230D800CA1B09 /* PersonDetailView.swift */,
+				CC7364C82B420F7900CA1B09 /* PersonEditor.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		CC7364E02B42A02C00CA1B09 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364DD2B429F0F00CA1B09 /* EventsView.swift */,
+				CC7364DB2B429E2B00CA1B09 /* EventDetailView.swift */,
+				CC7364D32B4227CB00CA1B09 /* EventEditor.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		CC7364E32B42AAD700CA1B09 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CC7364E12B42A04800CA1B09 /* AppSidebarList.swift */,
+				CC7364E42B42AAE500CA1B09 /* AppContentColumn.swift */,
+				CC7364E62B42AB6100CA1B09 /* AppDetailColumn.swift */,
+				CC3ADEC92B4307F300284819 /* AppTabView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,9 +680,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7364C32B420BF400CA1B09 /* PreviewData.swift in Sources */,
+				CC7364DE2B429F0F00CA1B09 /* EventsView.swift in Sources */,
+				CC7364DC2B429E2B00CA1B09 /* EventDetailView.swift in Sources */,
+				CC7364B02B4207F600CA1B09 /* Person.swift in Sources */,
+				CC7364D42B4227CB00CA1B09 /* EventEditor.swift in Sources */,
+				CC3ADECD2B430C0300284819 /* DataModel.swift in Sources */,
 				CC73642E2B4203BD00CA1B09 /* ContentView.swift in Sources */,
-				CC7364302B4203BD00CA1B09 /* Item.swift in Sources */,
+				CC7364B72B4208A000CA1B09 /* Person+Extension.swift in Sources */,
 				CC73642C2B4203BD00CA1B09 /* MeetMeApp.swift in Sources */,
+				CC7364BA2B4208FB00CA1B09 /* Event.swift in Sources */,
+				CC7364BE2B420A0A00CA1B09 /* Event+Extension.swift in Sources */,
+				CC7364B42B42087900CA1B09 /* PeopleView.swift in Sources */,
+				CC7364E52B42AAE500CA1B09 /* AppContentColumn.swift in Sources */,
+				CC7364D82B4230D800CA1B09 /* PersonDetailView.swift in Sources */,
+				CC7364E72B42AB6100CA1B09 /* AppDetailColumn.swift in Sources */,
+				CC7364C92B420F7900CA1B09 /* PersonEditor.swift in Sources */,
+				CC7364E22B42A04800CA1B09 /* AppSidebarList.swift in Sources */,
+				CC7364DA2B429D1600CA1B09 /* AppScreen.swift in Sources */,
+				CC3ADECA2B4307F300284819 /* AppTabView.swift in Sources */,
+				CC3ADEC82B4306E900284819 /* PrefersTabNavigationEnvironmentKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,8 +735,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7364A82B42054300CA1B09 /* MeetMeApp.swift in Sources */,
-				CC7364A92B42055B00CA1B09 /* Item.swift in Sources */,
 				CC73647F2B42047900CA1B09 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,6 +913,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MeetMe/MeetMe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeetMe/Preview Content\"";
@@ -818,6 +939,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -834,6 +956,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MeetMe/MeetMe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeetMe/Preview Content\"";
@@ -859,6 +982,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.transfinite.MeetMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
